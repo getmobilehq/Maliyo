@@ -1,0 +1,10 @@
+// AUTH
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+
+// STUDENT
+export const SET_STUDENT_DATA = "SET_STUDENT_DATA";
+export const SET_ACCOUNT_DATA = "SET_ACCOUNT_DATA";
+
+// ERRORS
+export const GET_ERRORS = "GET_ERROR";
+export const RESET_ERROR = "RESET_ERROR";
