@@ -45,10 +45,9 @@ const DivWrapper = styled.div`
   }
 
   form {
-    .ant-form-item-label {
-      #verify-email-form_email::before {
-        display: none;
-      }
+    .ant-form-item-label
+      > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+      display: none;
     }
 
     @media screen and (min-width: 1440px) and (max-width: 2560px) {

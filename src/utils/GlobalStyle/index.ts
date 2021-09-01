@@ -20,6 +20,10 @@ img {
   height: auto;
 }
 
+.ant-form-item .ant-form-item-label {
+  font-weight: bold;
+}
+
 .text-right {
   text-align: right;
 }
